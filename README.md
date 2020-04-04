@@ -6,14 +6,6 @@
   <img alt="React Project" title="React Project" src="./src/assets/images/readme.png" width="500px" />
 </h1>
 
-<h1 align="center">
-  <img alt="React Project" title="React Project" src="./assets/images/img2.png" width="500px" />
-</h1>
-
-<h1 align="center">
-  <img alt="React Project" title="React Project" src="./assets/images/img3.png" width="500px" />
-</h1>
-
 
 <p>This project was build during bootcamp gostack of Rocketseat! You can search git repositories and issues. </p>
 
