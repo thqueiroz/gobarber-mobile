@@ -3,7 +3,7 @@
 </h3>
 
 <h1 align="center">
-  <img alt="React Project" title="React Project" src="./src/assets/images/readme.png" width="500px" />
+  <img alt="React Project" title="React Project" src="./src/assets/readme.png" width="500px" />
 </h1>
 
 
