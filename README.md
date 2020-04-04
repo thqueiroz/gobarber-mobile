@@ -1,0 +1,28 @@
+<h3 align="center">
+  GoBarber Mobile
+</h3>
+
+<h1 align="center">
+  <img alt="React Project" title="React Project" src="./src/assets/images/readme.png" width="500px" />
+</h1>
+
+<h1 align="center">
+  <img alt="React Project" title="React Project" src="./assets/images/img2.png" width="500px" />
+</h1>
+
+<h1 align="center">
+  <img alt="React Project" title="React Project" src="./assets/images/img3.png" width="500px" />
+</h1>
+
+
+<p>This project was build during bootcamp gostack of Rocketseat! You can search git repositories and issues. </p>
+
+<blockquote align="center">“Não espere para plantar, apenas tenha paciência para colher”!(Rocketseat, 2020)</blockquote>
+
+### **How to use**
+
+- 1: Run<strong> yarn</strong> ( install all dependencies);
+- 2: Run<strong>Open the folder created and run react-native run-ios or run-android</strong> ( Run server );
+
+
+Qualquer dúvida só me comunicar =] (tiagohenriquequeiroz@gmail.com)
