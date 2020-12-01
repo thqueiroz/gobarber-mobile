@@ -44,6 +44,15 @@ export default function SignUp({ navigation }) {
                         onChangeText={setName}
                     />
                     <FormInput
+                        icon="info"
+                        autoorrect={false}
+                        autoCapilalize="none"
+                        placeholder="cpf"
+                        returnKeyType="next"
+                        KeyboardType="number"
+                        onSubmitEditing={() => emailRef.current.focus()}
+                    />
+                    <FormInput
                         icon="mail-outline"
                         KeyboardType="email-address"
                         autoorrect={false}

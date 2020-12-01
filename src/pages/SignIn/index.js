@@ -12,7 +12,8 @@ import {
     FormInput,
     SubmitButton,
     SignLink,
-    SignLinkText
+    SignLinkText,
+    About
 } from './styles';
 
 export default function SignIn({ navigation }) {
@@ -63,7 +64,13 @@ export default function SignIn({ navigation }) {
                 <SignLink onPress={() => navigation.navigate('SignUp')}>
                     <SignLinkText>Criar conta gratuita</SignLinkText>
                 </SignLink>
+                <SignLink onPress={() => navigation.navigate('ForgotPassword')}>
+                    <SignLinkText>Esqueci minha senha</SignLinkText>
+                </SignLink>
             </Container>
+            <About onPress={() => navigation.navigate('About')}>
+                <SignLinkText>Sobre</SignLinkText>
+            </About>
         </Background>
     );
 }

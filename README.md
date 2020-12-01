@@ -14,7 +14,8 @@
 ### **How to use**
 
 - 1: Run<strong> yarn</strong> ( install all dependencies);
-- 2: Run<strong>Open the folder created and run react-native run-ios or run-android</strong> ( Run server );
+- 2: Run<strong> cd ios / pod install</strong> ( install all pods);
+- 3: Run<strong>Open the folder created and run react-native run-ios or run-android</strong> ( Run server );
 
 
 Qualquer dúvida só me comunicar =] (tiagohenriquequeiroz@gmail.com)

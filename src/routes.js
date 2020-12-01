@@ -12,6 +12,8 @@ import Profile from '~/pages/Profile';
 import SelectProvider from '~/pages/New/SelectProvider';
 import SelectDateTime from '~/pages/New/SelectDateTime';
 import Confirm from '~/pages/New/Confirm';
+import ForgotPassword from '~/pages/ForgotPassword';
+import About from '~/pages/About';
 
 const LoginStack = createStackNavigator();
 const TabDashboard = createBottomTabNavigator();
@@ -51,6 +53,8 @@ export default function Routes({ signedIn }) {
                 <LoginStack.Navigator screenOptions={{ headerShown: false }}>
                     <LoginStack.Screen name="SignIn" component={SignIn} />
                     <LoginStack.Screen name="SignUp" component={SignUp} />
+                    <LoginStack.Screen name="ForgotPassword" component={ForgotPassword} />
+                    <LoginStack.Screen name="About" component={About} />
                 </LoginStack.Navigator>
             ) : (
                 <TabDashboard.Navigator
